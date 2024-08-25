@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hello World</title>
+<link rel="stylesheet" heref="style.css">
+</head>
+<body>
+<nav>
+<h1>Dennis Osadebay University</h1>
+</nav>
+<div class="box">
+<form action="#"> 
+<h2>Login</h2>
+<div class="input-box">
+<label>Username</label><br>
+<input type="text" placeholder="username" required>
+</div>
+<div class="input-box">
+<label>Password</label><br>
+<input type="password" placeholder="password" requires>
+</div>
+<button type="submit" class="btn">Login</button>
+</from>
+</div>
+</body>
+</html>
+<style>.box{
+  background-color: white;
+  width:95%;
+  height: 49%;
+  border-radius: 10px;
+  text-align: left;
+  position:absolute;
+  top: 20%; 
+}
+body{
+  background-color: grey;
+}
+.input-box input{
+  width:95%;
+  height:15%;
+  margin-top:20px;
+  margin-left:7px;
+  border-radius:10px;
+}
+body .btn{
+  width:30%;
+  min-height:5vh;
+  background-color:grey;
+  margin-left: 108px;
+  margin-top:20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 100%;
+}
+label{
+  margin-left:7px;
+  position:absolute;
+  margin-top:16px;
+  font-size:large;
+}
+nav h1{
+  position: absolute;
+  top: 4%;
+  left:2%;
+  font-size:180%;
+  color: white;
+  font-weight:lighter;
+}
+h2{
+  margin-left: 7px;
+  font-weight:lighter;
+}
+  
+</style>
